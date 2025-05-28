@@ -29,8 +29,8 @@ int main()
     printf("Ingrese la cadena de palabras: ");
     scanf("%[^\n]", cadenaoriginal);
     int longitud = strlen(cadenaoriginal);
-    char *cadena1 = (char *)calloc((longitud), sizeof(char));
-    char *cadena2 = (char *)calloc((longitud), sizeof(char));
+    char *cadena1 = (char *)calloc((longitud+1), sizeof(char));
+    char *cadena2 = (char *)calloc((longitud+1), sizeof(char));
     separar_cadenas(cadenaoriginal, longitud, cadena1, cadena2);
 
     printf("Cadena original: %s\n", cadenaoriginal);
