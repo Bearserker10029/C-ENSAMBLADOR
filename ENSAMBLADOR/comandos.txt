@@ -1,0 +1,3 @@
+
+gcc -Os -c calcula_resta_total.c -o calculo.o
+objdump -M intel -j .text -D calculo.o
