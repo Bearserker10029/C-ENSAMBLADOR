@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(int argc, char *tamano[])
 {
+    srand(time(NULL)); // Inicializar la semilla para números aleatorios
     int tam = atoi(tamano[1]);
 
     // printf("%d",tam);
