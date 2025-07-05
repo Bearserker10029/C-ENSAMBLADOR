@@ -62,7 +62,27 @@ int main()
     {
         printf("%d ", vectorsuma[i]);
     }
-    printf("\n");
+    printf("\nVector A Direcciones:\n");
+
+    for (i = 0; i < tam; i++)
+    {
+        printf("%d %p\n", i, (void *)&vectorA[i]);
+    }
+
+    printf("\nVector B Direcciones:\n");
+
+    for (i = 0; i < tam; i++)
+    {
+        printf("%d %p\n", i, (void *)&vectorB[i]);
+    }
+
+    printf("\nVector Suma Direcciones:\n");
+
+    for (i = 0; i < tam; i++)
+    {
+        printf("%d %p\n", i, (void *)&vectorsuma[i]);
+    }
+
     free(vectorB);
     free(vectorsuma);
     return 0;
