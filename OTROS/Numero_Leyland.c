@@ -17,6 +17,5 @@ int main(){
 	
 	printf("Los numeros %d %d que forman el numero Leyland %d = %d + %d, son mayores a 1: %d ", num_a, num_b, numero_leyland, calculo_primer_num, calculo_segundo_num, valor1);
 	
-	
 	return 0;
 }
