@@ -1,6 +1,5 @@
 # C
 # Compiled Object files
-*.o
 *.obj
 
 # Executables
